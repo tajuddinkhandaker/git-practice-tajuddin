@@ -13,15 +13,17 @@ A basic calculator that performs addition, subtraction, multiplication, and divi
 | `add(a, b)` | Returns the sum of a and b | `add(5, 3) → 8` |
 | `subtract(a, b)` | Returns the difference of a and b | `subtract(10, 4) → 6` |
 | `multiply(a, b)` | Returns the product of a and b | `multiply(3, 4) → 12` |
+| `divide(a, b)` | Returns the quotient (raises error if b is 0) | `divide(20, 4) → 5.0` |
 
 ## Usage
 
 ```python
-from src.utils import add, subtract, multiply
+from src.utils import add, subtract, multiply, divide
 
 result = add(5, 3)       # Returns 8
 result = subtract(10, 4) # Returns 6
 result = multiply(3, 4)  # Returns 12
+result = divide(20, 4)   # Returns 5.0
 ```
 
 ## Project Structure
